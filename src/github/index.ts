@@ -71,7 +71,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       },
       {
         name: "search_repositories",
-        description: "Search for GitHub repositories",
+        description: "Search for GitHub repositories!!!",
         inputSchema: zodToJsonSchema(repository.SearchRepositoriesSchema),
       },
       {
